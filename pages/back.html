@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<head>
+	<link rel="icon" href="/home/svt/Escritorio/pl5/img/favicon-96x96.png">
+	<meta charset="utf-8">
+	<title>Backpropagation</title>
+</head>
+<body>
+<h1>Backpropagation</h1>
+<p>En aprendizaje de máquina, la propagación hacia atrás de errores o retropropagación (del inglés backpropagation) es un algoritmo de aprendizaje supervisado utilizado para entrenar redes neuronales prealimentadas. Dado que es un método de cálculo del gradiente el algoritmo generalmente se puede usar en otros tipos de redes neuronales artificiales y en general para funciones.<br>
+
+El método emplea un ciclo de propagación–adaptación de dos fases, en resumen permite que la información del costo fluya hacia atrás a través de la red para calcular el gradiente.1​ Una vez que se ha aplicado un patrón a la entrada de la red como estímulo, este se propaga desde la primera capa a través de las capas siguientes de la red, hasta generar una salida. La señal de salida se compara con la salida deseada y se calcula una señal de error para cada una de las salidas. Las salidas de error entonces se propagan hacia atrás, partiendo de la capa de salida, hacia todas las neuronas de la capa oculta que contribuyen directamente a la salida. Sin embargo las neuronas de la capa oculta solo reciben una fracción de la señal total del error, basándose aproximadamente en la contribución relativa que haya aportado cada neurona a la salida original. Este proceso se repite, capa por capa, hasta que todas las neuronas de la red hayan recibido una señal de error que describa su contribución relativa al error total.<br>
+
+La importancia de este proceso consiste en que, a medida que se entrena la red, las neuronas de las capas intermedias se organizan a sí mismas de tal modo que las distintas neuronas aprenden a reconocer distintas características del espacio total de entrada. Después del entrenamiento, cuando se les presente un patrón arbitrario de entrada que contenga ruido o que esté incompleto, las neuronas de la capa oculta de la red responderán con una salida activa si la nueva entrada contiene un patrón que se asemeje a aquella característica que las neuronas individuales hayan aprendido a reconocer durante su entrenamiento.<br> </p>
+<footer><p>Fuente: <a href="https://es.wikipedia.org/wiki/Propagaci%C3%B3n_hacia_atr%C3%A1s">Wikipedia: Backpropagation</a></p></footer>
+</body>
